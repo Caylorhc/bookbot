@@ -33,7 +33,7 @@ def sort_dict(character_dict):
     return sorted_list
 def create_report(sorted_list):
     for char, count in sorted_list:
-        print(f"The '{char} character was found {count}")
+        print(f"The '{char}' character was found {count}")
     
 
          
